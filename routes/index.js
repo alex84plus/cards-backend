@@ -24,6 +24,7 @@ router.get('/ping', (req, res) => {
 
 router.use('/auth', require('./auth'));
 router.use('/users', require('./users'));
+router.use('/cards', require('./cards'));
 
 module.exports = router;
 >>>>>>> 9cdb170 (Step 3: users and authentication)
