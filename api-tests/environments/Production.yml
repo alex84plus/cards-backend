@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Replace the address with your own server (your droplet IP address or domain)
 name: Production
 variables:
@@ -7,3 +8,10 @@ variables:
     value: johnaedo
   - name: password
     value: ucf123!
+=======
+# Replace the address with your site's hostname from Step 7 (like https://cards-jsmith.duckdns.org)
+name: Production
+variables:
+  - name: baseURL
+    value: https://your-hostname
+>>>>>>> 983d0ca (Step 2: MongoDB)

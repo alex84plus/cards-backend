@@ -22,6 +22,12 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+<<<<<<< HEAD
   forwardAuthorizationHeader: true
 
 docs: Health check. Needs no login.
+=======
+
+docs: |-
+  Health check. Needs no login.
+>>>>>>> 983d0ca (Step 2: MongoDB)

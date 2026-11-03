@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 npm-debug.log
 .env
@@ -6,3 +7,13 @@ npm-debug.log
 Dockerfile
 docker-compose.yml
 api-tests
+=======
+node_modules
+npm-debug.log
+.env
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+api-tests
+>>>>>>> 983d0ca (Step 2: MongoDB)
