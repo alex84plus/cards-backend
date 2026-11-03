@@ -14,4 +14,11 @@ name: Production
 variables:
   - name: baseURL
     value: https://your-hostname
+<<<<<<< HEAD
 >>>>>>> 983d0ca (Step 2: MongoDB)
+=======
+  - name: login
+    value: johnaedo
+  - name: password
+    value: ucf123!
+>>>>>>> 9cdb170 (Step 3: users and authentication)

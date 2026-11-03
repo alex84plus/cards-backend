@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 
 const router = express.Router();
@@ -11,3 +12,18 @@ router.use('/auth', require('./auth'));
 router.use('/users', require('./users'));
 
 module.exports = router;
+=======
+const express = require('express');
+
+const router = express.Router();
+
+// GET /api/ping - Health check
+router.get('/ping', (req, res) => {
+  res.status(200).json({ message: 'Hello World' });
+});
+
+router.use('/auth', require('./auth'));
+router.use('/users', require('./users'));
+
+module.exports = router;
+>>>>>>> 9cdb170 (Step 3: users and authentication)
